@@ -195,3 +195,44 @@ footer {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   background-color: #e6edfc;
 }
+@media screen and (max-width: 768px) {
+  .container,
+  .why-internshala {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .signup-btn,
+  #themeToggle,
+  #chatWindow button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .status-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #chatWindow {
+    width: 90%;
+    right: 5%;
+    bottom: 90px;
+  }
+
+  .cta-box,
+  .isp-slider-section {
+    padding: 1rem;
+  }
+
+  .why-internshala p,
+  .why-internshala li {
+    font-size: 15px;
+  }
+}
