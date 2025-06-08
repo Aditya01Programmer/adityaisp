@@ -171,7 +171,18 @@ fullText =
   "- Experience in digital marketing, public speaking, and branding\n" +
   "- A powerful addition to your resume and LinkedIn profile\n\n" +
   "In short, it helps you learn, earn, and shine — all while still being a student! 🌟";}
-  else if (input.includes("why internshala")|| input.includes("why should i choose internshala only")||input.includes("why not others"))
+  else if (input.includes("why internshala")|| input.includes("why should i choose internshala only")||input.includes("why not others")) {
+    fullText =
+  "Great question!\n\n" +
+  "Internshala stands out from other platforms because it's **specially built for students.** 💙\n\n" +
+  "Here's why students prefer Internshala over others:\n" +
+  "- Trusted by 80,000+ companies and 5 million+ students\n" +
+  "- Offers verified and real internships only\n" +
+  "- Has affordable and skill-focused trainings\n" +
+  "- Run by an Indian team that understands student needs 🇮🇳\n" +
+  "- Clean, student-friendly interface\n\n" +
+  "It's more than a platform — it's a complete career support system for students! 🚀";
+  }
   else {
     fullText = "Sorry, I don’t understand that. Try asking about Internshala or ISP 😊";
   }
