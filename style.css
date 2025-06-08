@@ -197,7 +197,9 @@ footer {
 }
 @media screen and (max-width: 768px) {
   .container,
-  .why-internshala {
+  .why-internshala,
+  .cta-box,
+  .isp-slider-section {
     padding: 1rem;
     width: 100%;
   }
@@ -205,6 +207,10 @@ footer {
   h1, h2 {
     font-size: 1.5rem;
     text-align: center;
+  }
+
+  p, li {
+    font-size: 15px;
   }
 
   .signup-btn,
@@ -216,7 +222,6 @@ footer {
 
   .status-img {
     width: 100%;
-    max-width: 100%;
     height: auto;
   }
 
@@ -225,14 +230,8 @@ footer {
     right: 5%;
     bottom: 90px;
   }
-
-  .cta-box,
-  .isp-slider-section {
-    padding: 1rem;
-  }
-
-  .why-internshala p,
-  .why-internshala li {
-    font-size: 15px;
-  }
+}
+#ispSlider {
+  width: 100%;
+  margin: 15px 0;
 }
