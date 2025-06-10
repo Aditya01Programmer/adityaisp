@@ -205,7 +205,7 @@ fullText =
   }, 1000); // 1 second delay before typing starts
 }
 function copyLink() {
-  navigator.clipboard.writeText("https://www.internshala.com/ISP_referral_link")
+  navigator.clipboard.writeText("https://internshala.com/i/FTC-ISP50ADIT8010")
     .then(() => {
       document.getElementById("copyStatus").textContent = "Link copied!";
     });
